@@ -19,9 +19,15 @@ variable "tools" {
       instance_type        = "r7i.large"
       policy_resource_list = []
     }
+
+    ci = {
+      instance_type        = "t3.small"
+      policy_resource_list = []
+    }
   }
 }
-        variable "zone_id" {
+
+variable "zone_id" {
   default = "Z04475551DM169036MV75"
 }
 
