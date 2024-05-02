@@ -1,0 +1,5 @@
+- name: Add sonarqube user
+  ansible.builtin.user
+    name: sonar
+
+- name: Install Java
