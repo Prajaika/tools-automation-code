@@ -8,6 +8,8 @@ pipelines:
         shallow_clone: false
         auto_update: true
         branch: main
+      secure_variables:
+      TF_VAR_vault_token: AES:YV42gYq2yWYCgg9bBS751w==:0J4Y60lLT3HsxDdkAdXTMky20Zle8D6iW9YBArhOCqk=     
     stages:
     - Ansible:
         fetch_materials: true
